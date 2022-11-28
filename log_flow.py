@@ -18,5 +18,5 @@ def log_flow(name: str):
 
 
 if __name__ == "__main__":
-    name = sys.argv[0]
+    name = sys.argv[7]
     log_flow(name)
