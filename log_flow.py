@@ -7,7 +7,7 @@ from utilities import AN_IMPORTED_MESSAGE
 @task
 def log_task(name):
     logger = get_run_logger()
-    logger.info("Hellooo %s!", name)
+    logger.info("Hello %s!", name)
     logger.info("Prefect Version = %s 🚀", prefect.__version__)
     logger.debug(AN_IMPORTED_MESSAGE)
 
