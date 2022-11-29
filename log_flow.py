@@ -15,8 +15,3 @@ def log_task(name):
 @flow()
 def log_flow(name: str):
     log_task(name)
-
-
-if __name__ == "__main__":
-    name = sys.argv[0]
-    log_flow(name)
